@@ -62,7 +62,6 @@ jobs:
           haxelib git polymod https://github.com/MasterEric/polymod.git --quiet
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc --quiet
           haxelib git extension-webview https://github.com/jigsaw-4277821/extension-webview.git --quiet
-          haxelib install newgrounds --quiet
           haxelib list
           
       - name: Compile
