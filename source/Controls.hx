@@ -18,6 +18,11 @@ import ui.Hitbox;
 import ui.FlxVirtualPad;
 import flixel.ui.FlxButton;
 #end
+	override function update()	{
+
+		super.update();
+
+	}
 
 #if (haxe >= "4.0.0")
 enum abstract Action(String) to String from String
